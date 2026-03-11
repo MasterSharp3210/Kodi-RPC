@@ -1,0 +1,13 @@
+<addon id="plugin.program.cloverpc" name="Clover Rich Presence" version="1.0.0" provider-name="MasterSharp">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.service" library="main.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Discord Rich Presence for Kodi</summary>
+        <description> Shows what you're watching or listening to on Discord. </description>
+        <platform>all</platform>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </extension>
+</addon>
